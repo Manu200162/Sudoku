@@ -9,6 +9,7 @@ import android.widget.EditText;
 
 
 public class MainActivity extends AppCompatActivity {
+      private SudokuGames sg;
       private int [][] grid;
       private Button resolveButton;
       private EditText[][]casillas;
@@ -20,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         initViews();
         actions();
-        firstSudoku();
+        GameCreator();
 
     }
     private void initViews(){
@@ -118,13 +119,20 @@ public class MainActivity extends AppCompatActivity {
                      String s= casillas[i][j].getText().toString().trim();
                      int number= Integer.parseInt(s);
                      grid[i][j]=number;
-                     //casillas[i][j].setText(grid[][])
                  }
              }
          }
      });
   }
-  private void firstSudoku(){
+  private void GameCreator(){
+        sg= new SudokuGames();
+        int currentGame[][]=sg.getGame1();
+      for (int i=0; i<9; i++){
+          for (int j=0; j<9;j++){
+              String number= String.valueOf(currentGame[i][j]);
+              casillas[i][j].setText(number);
+          }
+      }
 
   }
     private boolean isSafe(int[][] board, int row, int col, int num) {
