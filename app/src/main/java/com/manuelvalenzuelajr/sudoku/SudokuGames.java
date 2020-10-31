@@ -18,5 +18,7 @@ public class SudokuGames {
     int game5[][];
     int game6[][];
     int game7[][];
-
+    public int [][] getGame1(){
+        return game1;
+    }
 }
