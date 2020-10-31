@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         initViews();
         actions();
+        firstSudoku();
 
     }
     private void initViews(){
@@ -122,6 +123,9 @@ public class MainActivity extends AppCompatActivity {
              }
          }
      });
+  }
+  private void firstSudoku(){
+
   }
     private boolean isSafe(int[][] board, int row, int col, int num) {
         for (int d = 0; d < board.length; d++) {
