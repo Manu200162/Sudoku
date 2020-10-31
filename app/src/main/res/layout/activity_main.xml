@@ -53,6 +53,7 @@
                         android:layout_margin="1dp"
                         android:inputType="number"
                         android:background="#ffffff"
+                        android:padding="10dp"
                         />
                     <EditText
                         android:id="@+id/casilla1_2"
@@ -62,7 +63,10 @@
                         android:maxLength="1"
                         android:layout_margin="1dp"
                         android:inputType="number"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"
+                        />
+
                     <EditText
                         android:id="@+id/casilla1_3"
                         android:layout_width="38dp"
@@ -71,7 +75,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla1_4"
                         android:layout_width="38dp"
@@ -81,6 +86,7 @@
                         android:inputType="number"
                         android:layout_margin="1dp"
                         android:background="#98C1D9"
+                        android:padding="10dp"
                         />
                     <EditText
                         android:id="@+id/casilla1_5"
@@ -90,7 +96,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla1_6"
                         android:layout_width="38dp"
@@ -99,7 +106,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla1_7"
                         android:layout_width="38dp"
@@ -108,7 +116,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla1_8"
                         android:layout_width="38dp"
@@ -117,7 +126,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla1_9"
                         android:layout_width="38dp"
@@ -126,7 +136,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
 
 
                 </TableRow>
@@ -142,6 +153,7 @@
                         android:layout_margin="1dp"
                         android:inputType="number"
                         android:background="#ffffff"
+                        android:padding="10dp"
                         />
                     <EditText
                         android:id="@+id/casilla2_2"
@@ -151,7 +163,8 @@
                         android:maxLength="1"
                         android:layout_margin="1dp"
                         android:inputType="number"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla2_3"
                         android:layout_width="38dp"
@@ -160,7 +173,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla2_4"
                         android:layout_width="38dp"
@@ -170,6 +184,7 @@
                         android:inputType="number"
                         android:layout_margin="1dp"
                         android:background="#98C1D9"
+                        android:padding="10dp"
                         />
                     <EditText
                         android:id="@+id/casilla2_5"
@@ -179,7 +194,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla2_6"
                         android:layout_width="38dp"
@@ -188,7 +204,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla2_7"
                         android:layout_width="38dp"
@@ -197,7 +214,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla2_8"
                         android:layout_width="38dp"
@@ -206,7 +224,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla2_9"
                         android:layout_width="38dp"
@@ -215,7 +234,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
 
 
                 </TableRow>
@@ -231,6 +251,7 @@
                         android:layout_margin="1dp"
                         android:inputType="number"
                         android:background="#ffffff"
+                        android:padding="10dp"
                         />
                     <EditText
                         android:id="@+id/casilla3_2"
@@ -240,7 +261,8 @@
                         android:maxLength="1"
                         android:layout_margin="1dp"
                         android:inputType="number"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla3_3"
                         android:layout_width="38dp"
@@ -249,7 +271,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla3_4"
                         android:layout_width="38dp"
@@ -259,6 +282,7 @@
                         android:inputType="number"
                         android:layout_margin="1dp"
                         android:background="#98C1D9"
+                        android:padding="10dp"
                         />
                     <EditText
                         android:id="@+id/casilla3_5"
@@ -268,7 +292,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla3_6"
                         android:layout_width="38dp"
@@ -277,7 +302,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla3_7"
                         android:layout_width="38dp"
@@ -286,7 +312,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla3_8"
                         android:layout_width="38dp"
@@ -295,7 +322,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla3_9"
                         android:layout_width="38dp"
@@ -304,7 +332,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
 
                 </TableRow>
 
@@ -320,6 +349,7 @@
                         android:layout_margin="1dp"
                         android:inputType="number"
                         android:background="#98C1D9"
+                        android:padding="10dp"
                         />
                     <EditText
                         android:id="@+id/casilla4_2"
@@ -329,7 +359,8 @@
                         android:maxLength="1"
                         android:layout_margin="1dp"
                         android:inputType="number"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla4_3"
                         android:layout_width="38dp"
@@ -338,7 +369,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla4_4"
                         android:layout_width="38dp"
@@ -348,6 +380,7 @@
                         android:inputType="number"
                         android:layout_margin="1dp"
                         android:background="#ffffff"
+                        android:padding="10dp"
                         />
                     <EditText
                         android:id="@+id/casilla4_5"
@@ -357,7 +390,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla4_6"
                         android:layout_width="38dp"
@@ -366,7 +400,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla4_7"
                         android:layout_width="38dp"
@@ -375,7 +410,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla4_8"
                         android:layout_width="38dp"
@@ -384,7 +420,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla4_9"
                         android:layout_width="38dp"
@@ -393,7 +430,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
 
                 </TableRow>
                 <TableRow
@@ -408,6 +446,7 @@
                         android:layout_margin="1dp"
                         android:inputType="number"
                         android:background="#98C1D9"
+                        android:padding="10dp"
                         />
                     <EditText
                         android:id="@+id/casilla5_2"
@@ -417,7 +456,8 @@
                         android:maxLength="1"
                         android:layout_margin="1dp"
                         android:inputType="number"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla5_3"
                         android:layout_width="38dp"
@@ -426,7 +466,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla5_4"
                         android:layout_width="38dp"
@@ -436,6 +477,7 @@
                         android:inputType="number"
                         android:layout_margin="1dp"
                         android:background="#ffffff"
+                        android:padding="10dp"
                         />
                     <EditText
                         android:id="@+id/casilla5_5"
@@ -445,7 +487,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla5_6"
                        android:layout_width="38dp"
@@ -454,7 +497,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla5_7"
                        android:layout_width="38dp"
@@ -463,7 +507,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla5_8"
                        android:layout_width="38dp"
@@ -472,7 +517,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla5_9"
                        android:layout_width="38dp"
@@ -481,7 +527,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
 
                 </TableRow>
 
@@ -497,6 +544,7 @@
                         android:layout_margin="1dp"
                         android:inputType="number"
                         android:background="#98C1D9"
+                        android:padding="10dp"
                         />
                     <EditText
                         android:id="@+id/casilla6_2"
@@ -506,7 +554,8 @@
                         android:maxLength="1"
                         android:layout_margin="1dp"
                         android:inputType="number"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla6_3"
                        android:layout_width="38dp"
@@ -515,7 +564,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla6_4"
                        android:layout_width="38dp"
@@ -525,6 +575,7 @@
                         android:inputType="number"
                         android:layout_margin="1dp"
                         android:background="#ffffff"
+                        android:padding="10dp"
                         />
                     <EditText
                         android:id="@+id/casilla6_5"
@@ -534,7 +585,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla6_6"
                        android:layout_width="38dp"
@@ -543,7 +595,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla6_7"
                        android:layout_width="38dp"
@@ -552,7 +605,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla6_8"
                        android:layout_width="38dp"
@@ -561,7 +615,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla6_9"
                        android:layout_width="38dp"
@@ -570,7 +625,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
 
                 </TableRow>
 
@@ -586,6 +642,7 @@
                         android:layout_margin="1dp"
                         android:inputType="number"
                         android:background="#ffffff"
+                        android:padding="10dp"
                         />
                     <EditText
                         android:id="@+id/casilla7_2"
@@ -595,7 +652,8 @@
                         android:maxLength="1"
                         android:layout_margin="1dp"
                         android:inputType="number"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla7_3"
                        android:layout_width="38dp"
@@ -604,7 +662,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla7_4"
                        android:layout_width="38dp"
@@ -614,6 +673,7 @@
                         android:inputType="number"
                         android:layout_margin="1dp"
                         android:background="#98C1D9"
+                        android:padding="10dp"
                         />
                     <EditText
                         android:id="@+id/casilla7_5"
@@ -623,7 +683,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla7_6"
                        android:layout_width="38dp"
@@ -632,7 +693,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla7_7"
                        android:layout_width="38dp"
@@ -641,7 +703,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla7_8"
                        android:layout_width="38dp"
@@ -650,7 +713,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla7_9"
                        android:layout_width="38dp"
@@ -659,7 +723,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
 
                 </TableRow>
 
@@ -675,6 +740,7 @@
                         android:layout_margin="1dp"
                         android:inputType="number"
                         android:background="#ffffff"
+                        android:padding="10dp"
                         />
                     <EditText
                         android:id="@+id/casilla8_2"
@@ -684,7 +750,8 @@
                         android:maxLength="1"
                         android:layout_margin="1dp"
                         android:inputType="number"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla8_3"
                        android:layout_width="38dp"
@@ -693,7 +760,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla8_4"
                        android:layout_width="38dp"
@@ -703,6 +771,7 @@
                         android:inputType="number"
                         android:layout_margin="1dp"
                         android:background="#98C1D9"
+                        android:padding="10dp"
                         />
                     <EditText
                         android:id="@+id/casilla8_5"
@@ -712,7 +781,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla8_6"
                        android:layout_width="38dp"
@@ -721,7 +791,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla8_7"
                        android:layout_width="38dp"
@@ -730,7 +801,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla8_8"
                        android:layout_width="38dp"
@@ -739,7 +811,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla8_9"
                        android:layout_width="38dp"
@@ -748,7 +821,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
 
                 </TableRow>
                 <TableRow
@@ -763,6 +837,7 @@
                         android:layout_margin="1dp"
                         android:inputType="number"
                         android:background="#ffffff"
+                        android:padding="10dp"
                         />
                     <EditText
                         android:id="@+id/casilla9_2"
@@ -772,7 +847,8 @@
                         android:maxLength="1"
                         android:layout_margin="1dp"
                         android:inputType="number"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla9_3"
                        android:layout_width="38dp"
@@ -781,7 +857,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla9_4"
                        android:layout_width="38dp"
@@ -791,6 +868,7 @@
                         android:inputType="number"
                         android:layout_margin="1dp"
                         android:background="#98C1D9"
+                        android:padding="10dp"
                         />
                     <EditText
                         android:id="@+id/casilla9_5"
@@ -800,7 +878,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla9_6"
                        android:layout_width="38dp"
@@ -809,7 +888,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#98C1D9"/>
+                        android:background="#98C1D9"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla9_7"
                        android:layout_width="38dp"
@@ -818,7 +898,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla9_8"
                        android:layout_width="38dp"
@@ -827,7 +908,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla9_9"
                        android:layout_width="38dp"
@@ -836,7 +918,8 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                        android:background="#ffffff"/>
+                        android:background="#ffffff"
+                        android:padding="10dp"/>
 
                 </TableRow>
 
