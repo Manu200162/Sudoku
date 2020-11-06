@@ -2,16 +2,24 @@ package com.manuelvalenzuelajr.sudoku;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
+    public static String LOG = MainActivity.class.getName();
       private SudokuGames sg;
       private int [][] grid;
+      private int [][] result;
+      private int [][] currentGame;
       private Button resolveButton;
+      private Button newGameButton;
       private EditText[][]casillas;
 
 
@@ -26,7 +34,9 @@ public class MainActivity extends AppCompatActivity {
     }
     private void initViews(){
         resolveButton=findViewById(R.id.resolve);
+        newGameButton=findViewById(R.id.newGame);
         grid= new int[9][9];
+        result= new int[9][9];
         casillas=new EditText[9][9];
         casillas[0][0]=findViewById(R.id.casilla1_1);
         casillas[0][1]=findViewById(R.id.casilla1_2);
@@ -114,6 +124,10 @@ public class MainActivity extends AppCompatActivity {
      resolveButton.setOnClickListener(new View.OnClickListener() {
          @Override
          public void onClick(View v) {
+             result=currentGame;
+             if (solveSudoku(result,9)){
+                 print(result,9);
+             }
              for (int i=0; i<9; i++){
                  for (int j=0; j<9;j++){
                      String s= casillas[i][j].getText().toString().trim();
@@ -124,16 +138,46 @@ public class MainActivity extends AppCompatActivity {
                      }else{
                          number= Integer.parseInt(s);
                      }
-
                      grid[i][j]=number;
                  }
              }
+             compareResults(result,grid);
          }
      });
-  }
+     newGameButton.setOnClickListener(new View.OnClickListener() {
+         @Override
+         public void onClick(View v) {
+              restart(MainActivity.this);
+         }
+     });
+    }
+  private void compareResults(int result[][], int grid[][]){
+        int cont=0;
+        for (int i=0;i<9;i++){
+            for(int j=0 ; j<9;j++ ){
+                casillas[i][j].setBackgroundColor(getResources().getColor(R.color.white));
+                if (grid[i][j] != result[i][j]){
+                    cont++;
+                    casillas[i][j].setBackgroundColor(getResources().getColor(R.color.red));
+                }
+            }
+        }
+        if (cont == 0){
+            Toast.makeText(MainActivity.this,"El juego ha sido completado correctamente",
+                    Toast.LENGTH_SHORT).show();
+            resolveButton.setVisibility(View.GONE);
+        }
+
+    }
+    private void restart(Activity actividad){
+        Intent intent=new Intent();
+        intent.setClass(actividad, actividad.getClass());
+        actividad.startActivity(intent);
+        actividad.finish();
+    }
   private void GameCreator(){
         sg= new SudokuGames();
-        int currentGame[][]=sg.getGame1();
+         currentGame=sg.getGame1();
       for (int i=0; i<9; i++){
           for (int j=0; j<9;j++){
               String number= String.valueOf(currentGame[i][j]);
@@ -215,5 +259,40 @@ public class MainActivity extends AppCompatActivity {
                 System.out.print("");
             }
         }
+    }
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.e(LOG, "onStart");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.e(LOG, "onResume");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.e(LOG, "onPause");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.e(LOG, "onStop");
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Log.e(LOG, "onRestart");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.e(LOG, "onDestroy");
     }
 }
