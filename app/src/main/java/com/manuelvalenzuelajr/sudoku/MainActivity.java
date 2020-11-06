@@ -138,6 +138,8 @@ public class MainActivity extends AppCompatActivity {
           for (int j=0; j<9;j++){
               String number= String.valueOf(currentGame[i][j]);
               casillas[i][j].setText(number);
+              if (currentGame[i][j] != 0) {casillas[i][j].setFocusable(false);}
+
           }
       }
 
