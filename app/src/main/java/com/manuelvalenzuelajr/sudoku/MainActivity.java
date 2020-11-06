@@ -11,6 +11,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.util.Random;
+
 
 public class MainActivity extends AppCompatActivity {
     public static String LOG = MainActivity.class.getName();
@@ -18,8 +20,11 @@ public class MainActivity extends AppCompatActivity {
       private int [][] grid;
       private int [][] result;
       private int [][] currentGame;
+      private Random rand;
+      private boolean isSolution;
       private Button resolveButton;
       private Button newGameButton;
+      private Button hintButton;
       private EditText[][]casillas;
 
 
@@ -30,14 +35,18 @@ public class MainActivity extends AppCompatActivity {
         initViews();
         actions();
         GameCreator();
+        result=currentGame;
+        isSolution=solveSudoku(result,9);
 
     }
     private void initViews(){
         resolveButton=findViewById(R.id.resolve);
         newGameButton=findViewById(R.id.newGame);
+        hintButton=findViewById(R.id.hintButton);
         grid= new int[9][9];
         result= new int[9][9];
         casillas=new EditText[9][9];
+        rand= new Random();
         casillas[0][0]=findViewById(R.id.casilla1_1);
         casillas[0][1]=findViewById(R.id.casilla1_2);
         casillas[0][2]=findViewById(R.id.casilla1_3);
@@ -125,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
          @Override
          public void onClick(View v) {
              result=currentGame;
-             if (solveSudoku(result,9)){
+             if (isSolution){
                  print(result,9);
              }
              for (int i=0; i<9; i++){
@@ -150,6 +159,40 @@ public class MainActivity extends AppCompatActivity {
               restart(MainActivity.this);
          }
      });
+     hintButton.setOnClickListener(new View.OnClickListener() {
+         @Override
+         public void onClick(View v) {
+             addNumber();
+         }
+     });
+    }
+    private void addNumber(){
+        boolean foundHint=false;
+        for(int i=0;i<9;i++){
+            for(int j=0;j<9;j++){
+                String s= casillas[i][j].getText().toString().trim();
+                int number;
+                if (s.equals("")){
+                    number = 0;
+                    casillas[i][j].setText("0");
+                }else{
+                    number= Integer.parseInt(s);
+                }
+                if(number==0){
+                    String number2= String.valueOf(result[i][j]);
+                    casillas[i][j].setTextColor(getResources().getColor(R.color.blue));
+                    casillas[i][j].setText(number2);
+                    casillas[i][j].setBackgroundColor(getResources().getColor(R.color.white));
+                    casillas[i][j].setFocusable(false);
+                    foundHint=true;
+                    break;
+
+                }
+            }
+           if (foundHint){
+               break;
+           }
+        }
     }
   private void compareResults(int result[][], int grid[][]){
         int cont=0;
@@ -176,8 +219,34 @@ public class MainActivity extends AppCompatActivity {
         actividad.finish();
     }
   private void GameCreator(){
-        sg= new SudokuGames();
-         currentGame=sg.getGame1();
+         int randomic= rand.nextInt(9);
+         int randomNumber=randomic+1;
+         sg= new SudokuGames();
+      switch (randomNumber)
+      {
+          case 1:  currentGame=sg.getGame1();
+              break;
+          case 2:  currentGame=sg.getGame2();
+              break;
+          case 3:  currentGame=sg.getGame3();
+              break;
+          case 4:  currentGame=sg.getGame4();
+              break;
+          case 5:  currentGame=sg.getGame5();
+              break;
+          case 6:  currentGame=sg.getGame6();
+              break;
+          case 7:  currentGame=sg.getGame7();
+              break;
+          case 8:  currentGame=sg.getGame8();
+              break;
+          case 9:  currentGame=sg.getGame9();
+              break;
+          case 10:  currentGame=sg.getGame10();
+              break;
+          default: currentGame=sg.getGame1();
+              break;
+      }
       for (int i=0; i<9; i++){
           for (int j=0; j<9;j++){
               String number= String.valueOf(currentGame[i][j]);
