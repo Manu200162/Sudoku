@@ -117,7 +117,14 @@ public class MainActivity extends AppCompatActivity {
              for (int i=0; i<9; i++){
                  for (int j=0; j<9;j++){
                      String s= casillas[i][j].getText().toString().trim();
-                     int number= Integer.parseInt(s);
+                     int number;
+                     if (s.equals("")){
+                        number = 0;
+                        casillas[i][j].setText("0");
+                     }else{
+                         number= Integer.parseInt(s);
+                     }
+
                      grid[i][j]=number;
                  }
              }

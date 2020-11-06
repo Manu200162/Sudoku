@@ -50,6 +50,7 @@
                          android:layout_height="38dp"
                         android:ems="1"
                         android:maxLength="1"
+                        android:gravity="center_horizontal"
                         android:layout_margin="1dp"
                         android:inputType="number"
                         android:background="#ffffff"
