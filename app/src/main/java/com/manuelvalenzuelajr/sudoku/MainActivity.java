@@ -134,7 +134,6 @@ public class MainActivity extends AppCompatActivity {
      resolveButton.setOnClickListener(new View.OnClickListener() {
          @Override
          public void onClick(View v) {
-             result=currentGame;
              if (isSolution){
                  print(result,9);
              }
