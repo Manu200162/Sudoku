@@ -129,7 +129,8 @@ public class MainActivity extends AppCompatActivity {
         casillas[8][7]=findViewById(R.id.casilla9_8);
         casillas[8][8]=findViewById(R.id.casilla9_9);
     }
-  private void actions(){
+  //Metodo que define las acciones de los distintos botones
+    private void actions(){
      resolveButton.setOnClickListener(new View.OnClickListener() {
          @Override
          public void onClick(View v) {
@@ -166,6 +167,7 @@ public class MainActivity extends AppCompatActivity {
          }
      });
     }
+    //Metodo que funciona junto con el boton hint para agragar un numero como pista
     private void addNumber(){
         boolean foundHint=false;
         for(int i=0;i<9;i++){
@@ -195,6 +197,7 @@ public class MainActivity extends AppCompatActivity {
            }
         }
     }
+    //Metodo que compara con el sudoku introducido con el de verdadero resultado
   private void compareResults(int result[][], int grid[][]){
         int cont=0;
         for (int i=0;i<9;i++){
@@ -215,6 +218,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+    //Metodo para mantener el color de fondo de las cassillas
     private void setColor(int i, int j){
         if ((i==0&&j==3)||(i==0&&j==4)||(i==0&&j==5)||(i==1&&j==3)||(i==1&&j==4)||(i==1&&j==5)||
                 (i==2&&j==3)||(i==2&&j==4)||(i==2&&j==5)||(i==3&&j==0)||(i==3&&j==1)||(i==3&&j==2)||
@@ -227,13 +231,15 @@ public class MainActivity extends AppCompatActivity {
             casillas[i][j].setBackgroundColor(getResources().getColor(R.color.white));
         }
     }
+    //Metodo para iniciar un nuevo juego de sudoku
     private void restart(Activity actividad){
         Intent intent=new Intent();
         intent.setClass(actividad, actividad.getClass());
         actividad.startActivity(intent);
         actividad.finish();
     }
-  private void GameCreator(){
+  // Metodo para poner el tablero de juego en la pantalla
+    private void GameCreator(){
          int randomic= rand.nextInt(9);
          int randomNumber=randomic+1;
          sg= new SudokuGames();
@@ -272,7 +278,9 @@ public class MainActivity extends AppCompatActivity {
       }
 
   }
-    private boolean isSafe(int[][] board, int row, int col, int num) {
+  //Metodo parte del algoritmo de backtracking que se encarga de comprobar de que la casilla en la
+  //que se quiere introducir un numero es valida
+  private boolean isSafe(int[][] board, int row, int col, int num) {
         for (int d = 0; d < board.length; d++) {
             if (board[row][d] == num) {
                 return false;
@@ -299,6 +307,8 @@ public class MainActivity extends AppCompatActivity {
 
         return true;
     }
+    //Metodo principal perteneciente al algoritmo de backtracking que se encarga de resolver el
+      //sudoku
     private boolean solveSudoku(int[][] board, int n) {
         int row = -1;
         int col = -1;
@@ -331,6 +341,7 @@ public class MainActivity extends AppCompatActivity {
         }
         return false;
     }
+    //Metodo que imprime en el logcat el resultado de del sudoku
     private void print(int[][] board, int N) {
         for (int r = 0; r < N; r++) {
             for (int d = 0; d < N; d++) {
