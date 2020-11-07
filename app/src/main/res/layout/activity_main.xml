@@ -88,7 +88,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                       android:background="@color/blue2"
                         android:padding="10dp"
                         />
                     <EditText
@@ -99,7 +99,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla1_6"
@@ -109,7 +109,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla1_7"
@@ -186,7 +186,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"
                         />
                     <EditText
@@ -197,7 +197,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla2_6"
@@ -207,7 +207,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla2_7"
@@ -284,7 +284,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"
                         />
                     <EditText
@@ -295,7 +295,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla3_6"
@@ -305,7 +305,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla3_7"
@@ -351,7 +351,7 @@
                         android:maxLength="1"
                         android:layout_margin="1dp"
                         android:inputType="number"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"
                         />
                     <EditText
@@ -362,7 +362,7 @@
                         android:maxLength="1"
                         android:layout_margin="1dp"
                         android:inputType="number"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla4_3"
@@ -372,7 +372,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla4_4"
@@ -413,7 +413,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla4_8"
@@ -423,7 +423,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla4_9"
@@ -433,7 +433,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
 
                 </TableRow>
@@ -448,7 +448,7 @@
                         android:maxLength="1"
                         android:layout_margin="1dp"
                         android:inputType="number"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"
                         />
                     <EditText
@@ -459,7 +459,7 @@
                         android:maxLength="1"
                         android:layout_margin="1dp"
                         android:inputType="number"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla5_3"
@@ -469,7 +469,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla5_4"
@@ -510,7 +510,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla5_8"
@@ -520,7 +520,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla5_9"
@@ -530,7 +530,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
 
                 </TableRow>
@@ -546,7 +546,7 @@
                         android:maxLength="1"
                         android:layout_margin="1dp"
                         android:inputType="number"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"
                         />
                     <EditText
@@ -557,7 +557,7 @@
                         android:maxLength="1"
                         android:layout_margin="1dp"
                         android:inputType="number"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla6_3"
@@ -567,7 +567,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla6_4"
@@ -608,7 +608,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla6_8"
@@ -618,7 +618,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla6_9"
@@ -628,7 +628,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
 
                 </TableRow>
@@ -675,7 +675,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"
                         />
                     <EditText
@@ -686,7 +686,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla7_6"
@@ -696,7 +696,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla7_7"
@@ -773,7 +773,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"
                         />
                     <EditText
@@ -784,7 +784,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla8_6"
@@ -794,7 +794,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla8_7"
@@ -870,7 +870,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"
                         />
                     <EditText
@@ -881,7 +881,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla9_6"
@@ -891,7 +891,7 @@
                         android:maxLength="1"
                         android:inputType="number"
                         android:layout_margin="1dp"
-                       android:background="#ffffff"
+                        android:background="@color/blue2"
                         android:padding="10dp"/>
                     <EditText
                         android:id="@+id/casilla9_7"

@@ -182,7 +182,8 @@ public class MainActivity extends AppCompatActivity {
                     String number2= String.valueOf(result[i][j]);
                     casillas[i][j].setTextColor(getResources().getColor(R.color.blue));
                     casillas[i][j].setText(number2);
-                    casillas[i][j].setBackgroundColor(getResources().getColor(R.color.white));
+                    setColor(i,j);
+                    //casillas[i][j].setBackgroundColor(getResources().getColor(R.color.white));
                     casillas[i][j].setFocusable(false);
                     foundHint=true;
                     break;
@@ -198,7 +199,8 @@ public class MainActivity extends AppCompatActivity {
         int cont=0;
         for (int i=0;i<9;i++){
             for(int j=0 ; j<9;j++ ){
-                casillas[i][j].setBackgroundColor(getResources().getColor(R.color.white));
+                setColor(i,j);
+                //casillas[i][j].setBackgroundColor(getResources().getColor(R.color.white));
                 if (grid[i][j] != result[i][j]){
                     cont++;
                     casillas[i][j].setBackgroundColor(getResources().getColor(R.color.red));
@@ -209,8 +211,21 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(MainActivity.this,"El juego ha sido completado correctamente",
                     Toast.LENGTH_SHORT).show();
             resolveButton.setVisibility(View.GONE);
+            hintButton.setVisibility(View.GONE);
         }
 
+    }
+    private void setColor(int i, int j){
+        if ((i==0&&j==3)||(i==0&&j==4)||(i==0&&j==5)||(i==1&&j==3)||(i==1&&j==4)||(i==1&&j==5)||
+                (i==2&&j==3)||(i==2&&j==4)||(i==2&&j==5)||(i==3&&j==0)||(i==3&&j==1)||(i==3&&j==2)||
+                (i==4&&j==0)||(i==4&&j==1)||(i==4&&j==2)||(i==5&&j==0)||(i==5&&j==1)||(i==5&&j==2)||
+                (i==3&&j==6)||(i==3&&j==7)||(i==3&&j==8)||(i==4&&j==6)||(i==4&&j==7)||(i==4&&j==8)||
+                (i==5&&j==6)||(i==5&&j==7)||(i==5&&j==8)||(i==6&&j==3)||(i==6&&j==4)||(i==6&&j==5)||
+                (i==7&&j==3)||(i==7&&j==4)||(i==7&&j==5)||(i==8&&j==3)||(i==8&&j==4)||(i==8&&j==5)){
+            casillas[i][j].setBackgroundColor(getResources().getColor(R.color.blue2));
+        }else{
+            casillas[i][j].setBackgroundColor(getResources().getColor(R.color.white));
+        }
     }
     private void restart(Activity actividad){
         Intent intent=new Intent();
