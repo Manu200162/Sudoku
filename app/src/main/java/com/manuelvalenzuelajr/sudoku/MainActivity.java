@@ -33,10 +33,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initViews();
-        actions();
         GameCreator();
         result=currentGame;
         isSolution=solveSudoku(result,9);
+        actions();
 
     }
     private void initViews(){
